@@ -19,7 +19,7 @@ function randomChoice() {
 }
 function randomCrystalPonit() {
   for (var i = 0; i < 4; i++) {
-    var randomPoint = Math.floor(Math.random() * 9 + 1);
+    var randomPoint = Math.floor(Math.random() * 11 + 1);
     crystalList[i] = randomPoint;
     console.log(crystalList);
     redPoint = crystalList[0];
