@@ -7,6 +7,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Bebas+Neue|Oswald:300&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
   <body>
@@ -31,19 +35,22 @@
           crystal.
         </p>
       </div>
-      <div id="given-number"></div>
+      <br />
+      <div class="number">number = <span id="given-number"></span></div>
       <div id="score-board">
         <p class="score">Wins : <span id="win-score"></span></p>
         <p class="score">Lose : <span id="lose-score"></span></p>
       </div>
+      <br />
       <div id="crystals">
-        <button class="crystal"></button>
-        <button class="crystal"></button>
-        <button class="crystal"></button>
-        <button class="crystal"></button>
+        <button class="crystal" id="red"></button>
+        <button class="crystal" id="green"></button>
+        <button class="crystal" id="yellow"></button>
+        <button class="crystal" id="blue"></button>
       </div>
-      <div class="userscore-board">
-        <p>Your total Score is:</p>
+      <br />
+      <div class="userscore-board number">
+        Your total Score is:
         <div id="user-score"></div>
       </div>
     </div>

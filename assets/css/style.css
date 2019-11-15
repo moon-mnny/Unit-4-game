@@ -1,0 +1,42 @@
+body {
+  font-family: "Bebas Neue", cursive;
+  display: flex;
+  justify-content: left;
+  align-content: center;
+  padding: 10px;
+}
+header {
+  font-size: 60pt;
+  padding-right: 5px;
+}
+h1 {
+  font-size: 20pt;
+}
+p {
+  font-size: 14pt;
+  line-height: 1.5;
+  font-family: "Oswald", sans-serif;
+}
+div.instruction {
+  width: 70vw;
+}
+div.number {
+  font-size: 20pt;
+}
+button.crystal {
+  width: 50px;
+  height: 50px;
+  border: 1px solid;
+}
+button#red {
+  background-color: #881818;
+}
+button#green {
+  background-color: #247714;
+}
+button#yellow {
+  background-color: #d6b629;
+}
+button#blue {
+  background-color: #131d70;
+}
